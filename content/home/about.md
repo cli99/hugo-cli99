@@ -12,31 +12,34 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Cloud Computing Applications and Systems",
+    "High Performance Computing",
+    "Cognitive Computing"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD Candidate in Computer Science"
+  institution = "University of Illinois Urbana-Champaign"
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "MS in Computer Science and Engineering"
+  institution = "University of Michigan"
+  year = 2015
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BS in Computer Engineering"
+  institution = "University of Michigan"
+  year = 2013
  
+[[education.courses]]
+  course = "BS in Electrical Engineering"
+  institution = "Shanghai Jiao Tong University"
+  year = 2013
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD candidate in Computer Science at the University of Illinois at Urbana-Champaign and a member of the [IMPACT Research Group](http://impact.crhc.illinois.edu/) led by Professor Wen-Mei Hwu.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am working on CarML (Cognitive ARtifacts for Machine Learning) as part of the joint UIUC / IBM C3SR cognitive computing systems research center. CarML is an open source distributed platform allowing people to easily deploy and experiment different Machine Learning / Deep Leaning frameworks and models, all through a common interface.
