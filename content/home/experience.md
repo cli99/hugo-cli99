@@ -10,13 +10,13 @@ subtitle = ""
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 60
+weight = 40
 
 +++
 
 ## Industry
 
-Summer 2017 - Research Intern for Optimized CLOUD Systems, IBM TJ Watson Research Center, Yorktown Heights, NY
+Summer 2017 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
 
 ## Teaching
 

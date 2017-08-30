@@ -126,7 +126,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "cli99@illinois.edu"
+    link = "mailto:cli99@illinois.edu"
 
   [[params.social]]
     icon = "github"
@@ -169,8 +169,8 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Talks"
+  url = "#talks"
   weight = 5
 
 [[menu.main]]
