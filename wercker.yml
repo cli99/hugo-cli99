@@ -35,8 +35,6 @@ build:
         version: "0.25"
 deploy:
   steps:
-    - install-packages:
-        packages: git ssh-client
     - ysqi/git-push:
        gh_oauth: $GH_TOKEN
        repo: cli99/cli99.github.io
