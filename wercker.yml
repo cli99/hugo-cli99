@@ -37,7 +37,7 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - leipert/git-push:
+    - leipert/git-push@0.7.6:
        gh_oauth: $GH_TOKEN
        repo: cli99/cli99.github.io
        branch: master
