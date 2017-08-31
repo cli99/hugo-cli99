@@ -37,7 +37,7 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - leipert/git-push:
+    - ysqi/step-git-push:
        gh_oauth: $GH_TOKEN
        repo: cli99/cli99.github.io
        gh_pages: true
