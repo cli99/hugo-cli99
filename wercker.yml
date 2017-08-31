@@ -3,7 +3,7 @@
 # If you want Google's container you would reference google/golang
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: golang
+box: wercker/default
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
 # http://devcenter.wercker.com/docs/pipelines/index.html
@@ -38,7 +38,7 @@ deploy:
     - install-packages:
         packages: git ssh-client
     - leipert/git-push:
-       gh_oauth: $GIT_TOKEN
+       gh_oauth: $GH_TOKEN
        repo: cli99/cli99.github.io
        branch: master
        basedir: public
