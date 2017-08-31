@@ -24,14 +24,14 @@ view = 1
 [[filter]]
   name = "All"
   tag = "*"
-  
+    
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Current"
+  tag = ".current"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Past"
+  tag = ".past"
 
 +++
 

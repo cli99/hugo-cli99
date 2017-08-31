@@ -9,6 +9,7 @@ location = "London, United Kingdom"
 
 selected = false
 math = true
+draft = true
 
 url_pdf = ""
 url_slides = ""

@@ -10,15 +10,12 @@ image_preview = ""
 math = false
 publication = "IPDPSW 2017 - *Parallel and Distributed Processing Symposium Workshops, 2017 IEEE International*"
 
-url_code = ""
+url_code = "https://github.com/rai-project/"
 url_dataset = ""
 url_pdf = "pdf/rai-edupar2017.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
-[[url_custom]]
-name = "Custom Link"
-url = "http://www.example.org"
 
 selected = false
 +++
