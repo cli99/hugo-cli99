@@ -6,7 +6,7 @@ date = "2017-08-30"
 title = "CarML: Cognitive ARtifacts for Machine Learning"
 
 # Project summary to display on homepage.
-summary = "An open source distributed platform allowing people to easily deploy and experiment different Machine Learning / Deep Leaning frameworks and models."
+summary = "An open source distributed platform to easily deploy and experiment different Machine Learning and Deep Leaning frameworks and models across hardware infrastructures, through a common interface."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "carml.png"
