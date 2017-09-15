@@ -6,7 +6,7 @@ date = "2017-08-30"
 title = "Optimizing Dynamic Parallelism on GPUs"
 
 # Project summary to display on homepage.
-summary = "An open source distributed platform allowing people to easily deploy and experiment different Machine Learning / Deep Leaning frameworks and models."
+summary = "Kernel Lauch Aggregation and Promotion (KLAP), a set of compiler techniques that improve the performance of kernels which use dynamic parallelism."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
