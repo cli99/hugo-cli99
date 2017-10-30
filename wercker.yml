@@ -33,7 +33,7 @@ build:
             git submodule update --remote --recursive
     - arjen/hugo-build:
         version: "0.30.2"
-        theme: "hugo-academic"
+        theme: academic
 deploy:
   steps:
     - ysqi/git-push:
