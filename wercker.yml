@@ -33,7 +33,7 @@ build:
             git submodule update --remote --recursive
     - arjen/hugo-build:
         version: "0.30.2"
-        theme: academic
+        theme: "hugo-academic"
 deploy:
   steps:
     - ysqi/git-push:
@@ -42,3 +42,5 @@ deploy:
        gh_pages: true
        branch: master
        basedir: public
+
+# https://fischcheng.github.io/2016/09/14/automated-deployment-of-hugo-generated-site-to-github-pages/
