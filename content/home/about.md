@@ -12,7 +12,7 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Hardware and Software co-design for Machine Learning",
+    "Hardware/Software Co-design for Machine Learning",
     "Cloud Computing Applications and Systems",
     "High Performance Computing"
   ]
