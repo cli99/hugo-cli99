@@ -1,10 +1,8 @@
 +++
 # About/Biography widget.
-
-date = "2016-04-20T00:00:00"
-draft = false
-
 widget = "about"
+active = true
+date = "2016-04-20T00:00:00"
 
 # Order that this section will appear in.
 weight = 1
@@ -16,6 +14,7 @@ weight = 1
     "Cloud Computing Applications and Systems",
     "High Performance Computing"
   ]
+
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
@@ -36,6 +35,7 @@ weight = 1
   course = "BS in Electrical Engineering"
   institution = "Shanghai Jiao Tong University"
   year = 2013
+ 
 +++
 
 # Biography
