@@ -35,7 +35,6 @@ build:
         version: "0.39"
         theme: academic
         config: second-config.toml
-        flags: --disableSitemap=true
 deploy:
   steps:
     - ysqi/git-push:
