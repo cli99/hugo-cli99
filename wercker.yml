@@ -34,7 +34,6 @@ build:
     - arjen/hugo-build:
         version: "0.39"
         theme: academic
-        config: second-config.toml
 deploy:
   steps:
     - ysqi/git-push:
