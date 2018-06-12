@@ -1,6 +1,6 @@
 baseurl = "https://cli99.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Cheng Li"
-copyright = "&copy; 2017 Cheng Li"
+copyright = "&copy; 2018 Cheng Li"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -31,7 +31,7 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, or `coffee`.
-  color_theme = "default"
+  color_theme = "dark"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -209,19 +209,24 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
+  name = "Skills"
+  url = "#skills"
+  weight = 2
+
+[[menu.main]]
   name = "Publications"
   url = "#publications"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Experience"
   url = "#experience"
-  weight = 4
+  weight = 5
 
 [[menu.main]]
   name = "Contact"

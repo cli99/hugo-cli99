@@ -9,7 +9,7 @@ title = "MLModelScope (CarML)"
 summary = "An open-source batteries-included platform for performing evaluations on ML/DL algorithms across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "carml.png"
+image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

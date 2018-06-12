@@ -9,7 +9,7 @@ title = "RAI"
 summary = "A Scalable Project Submission System for Parallel Programming Courses."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "rai.png"
+image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
