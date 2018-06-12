@@ -22,4 +22,4 @@ Summer 2017 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights
 
 ## Teaching
 
-Fall 2016 - Teaching Assistant for ECE408/CS483: Heterogeneous Parallel Programming at University of Illinois at Urbana-Champaign.
+Fall 2016 - Teaching Assistant for ECE408/CS483: Applied Parallel Programming at University of Illinois at Urbana-Champaign.
