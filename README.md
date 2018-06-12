@@ -1,1 +1,3 @@
-# [hugo-cli99](https://georgecushen.com/create-your-website-with-hugo)
+# References
+* [create-your-website-with-hugo](https://georgecushen.com/create-your-website-with-hugo)
+* [deployment](https://sourcethemes.com/academic/docs/deployment)
