@@ -3,10 +3,10 @@
 date = "2017-08-30"
 
 # Project title.
-title = "Optimizing Dynamic Parallelism on GPUs"
+title = "KLAP"
 
 # Project summary to display on homepage.
-summary = "Kernel Lauch Aggregation and Promotion (KLAP), a set of compiler techniques that improve the performance of kernels which use dynamic parallelism."
+summary = "Kernel Lauch Aggregation and Promotion (KLAP), a set of compiler techniques that improve the performance of GPU kernels which use dynamic parallelism."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""

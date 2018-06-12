@@ -10,11 +10,13 @@ subtitle = ""
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 40
+weight = 4
 
 +++
 
 ## Industry
+
+Summer 2018 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
 
 Summer 2017 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
 

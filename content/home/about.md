@@ -11,8 +11,8 @@ weight = 1
 [interests]
   interests = [
     "Hardware/Software Co-design for Machine Learning",
-    "Cloud Computing Applications and Systems",
-    "High Performance Computing"
+    "High Performance Computing",
+    "Cloud Applications and Systems"
   ]
 
 
@@ -42,4 +42,4 @@ weight = 1
 
 I am a PhD candidate in Computer Science at the University of Illinois at Urbana-Champaign and a member of the [IMPACT Research Group](http://impact.crhc.illinois.edu/) led by Professor Wen-Mei Hwu.
 
-I am working on CarML (Cognitive ARtifacts for Machine Learning) as part of the joint UIUC / IBM C3SR cognitive computing systems research center. CarML is an open source distributed platform allowing people to easily deploy and experiment different Machine Learning / Deep Leaning frameworks and models, all through a common interface.
+I am working on [MLModelScope(CarML)](https://github.com/rai-project/carml) as part of the joint UIUC / IBM C3SR cognitive computing systems research center. MLModelScope is an open-source batteries-included platform allowing users to easily evaluate Machine Learning / Deep Leaning algorithms(models) across different datasets, frameworks, and systems, all through a common interface. A prototype is [here](http://mlmodelscope.org/).

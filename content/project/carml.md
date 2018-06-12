@@ -3,10 +3,10 @@
 date = "2017-08-30"
 
 # Project title.
-title = "CarML: Cognitive ARtifacts for Machine Learning"
+title = "MLModelScope (CarML)"
 
 # Project summary to display on homepage.
-summary = "An open source distributed platform to easily deploy and experiment different Machine Learning and Deep Leaning frameworks and models across hardware infrastructures, through a common interface."
+summary = "An open-source batteries-included platform for performing evaluations on ML/DL algorithms across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "carml.png"
@@ -16,7 +16,7 @@ image_preview = "carml.png"
 tags = ["current"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://rai-project.github.io/carml"
+external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
@@ -28,7 +28,21 @@ caption = ":smile:"
 
 +++
 
-The current process of experimenting with different machine learning (ML) packages and deep learning (DL) frameworks as well as their corresponding ML/DL models is, however, daunting. It involves (1) instantiating the  right hardware system, (2) installing the right ML/DL software packages with dependencies, (3) obtaining the right ML/DL models and related dataset, (4) configuring the system, software, and models to work together to run the experiments, and (5) collecting and analyzing experiment results for the needed use case. Most likely, many pages of documentation (if available) must be followed to install one ML and/or DL framework, followed by a process to download and use a particular MD and/or DL model. Not to mention the complexity involved with different hardware system configurations and their interplay with any user's pre-existing system software installation and their complex dependencies.
+The current landscape of Machine Learning (ML) is fragmented. Many hardware companies and software stacks are proposing diverse hardware architectures and software paradigms. While this is good for innovation, it does make analyzing the different ML offering complicated and error-prone. We propose MLModelScope, a batteries-included platform for performing evaluations on ML/DL algorithms across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance. 
 
-CarML (Cognitive ARtifacts for Machine Learning) is an open source distributed platform allowing people to easily deploy and experiment different ML/DL frameworks and models, all through a common interface. It allows ML/DL developers to publish and evaluate their models, users to experiment with published models and frameworks, and system architects (who develop underlying hardware systems and infrastructures to support ML/DL workloads) to capture system resource usage to inform future system and hardware configuration.
+MLModelScope (CarML) allows one to dissect ML models and characterize performance through a common interface, generating a report as a byproduct. By simplifying and standardizing the analysis and evaluation of ML offerings, we enable people from industry and researchers to have a common methodology and platform by which to compare the offerings and ideas.
 
+MLModelScope currently has the following capabilities:
+
+1. Model accuracy replication and verification 
+2. 170 built-in models in Caffe, Caffe2, CNTK, MXNet, Tensorfow, and TensorRT
+3. Supports X86, ARM, and PPC
+4. Runs on Volta, Pascal, Maxwell, Kepler, and Jetson TX1 and TX2
+5. Top1/Top5 accuracy on popular datasets such as ImageNet, CIFAR, MNIST
+6. Model divergence Analysis for a given input
+7. End-To-End profiling
+8. Model layer and GPU kernel information on timing, hardware performance counter, and
+9. CUDA execution profile
+10. Static profiling such as theoretical flops calculation and memory requirement.
+
+MLModelScope is currently under development and docs are here [MLModelScope Docs](https://rai-project.github.io/carml)
