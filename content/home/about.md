@@ -16,6 +16,14 @@ weight = 1
   ]
 
 
+# List your academic interests.
+[skills]
+  skills = [
+    "Hardware/Software Co-design for Machine Learning",
+    "High Performance Computing",
+    "Cloud Applications and Systems"
+  ]
+
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD Candidate in Computer Science"
