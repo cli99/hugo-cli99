@@ -6,7 +6,7 @@ date = "2017-08-30"
 title = "MLModelScope (CarML)"
 
 # Project summary to display on homepage.
-summary = "An open-source batteries-included platform for performing evaluations on ML/DL algorithms across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance."
+summary = "An open-source framework agnostic platform for performing evaluations and profiling on ML/DL models across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -28,13 +28,13 @@ caption = ":smile:"
 
 +++
 
-The current landscape of Machine Learning (ML) is fragmented. Many hardware companies and software stacks are proposing diverse hardware architectures and software paradigms. While this is good for innovation, it does make analyzing the different ML offering complicated and error-prone. We propose MLModelScope, a batteries-included platform for performing evaluations on ML/DL algorithms across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance. 
+The current landscape of Machine Learning (ML) is fragmented. Many hardware companies and software stacks are proposing diverse hardware architectures and software paradigms. While this is good for innovation, it does make analyzing the different ML offering complicated and error-prone. We propose MLModelScope, a batteries-included platform for performing evaluations on ML/DL algorithms across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance.
 
 MLModelScope (CarML) allows one to dissect ML models and characterize performance through a common interface, generating a report as a byproduct. By simplifying and standardizing the analysis and evaluation of ML offerings, we enable people from industry and researchers to have a common methodology and platform by which to compare the offerings and ideas.
 
 MLModelScope currently has the following capabilities:
 
-1. Model accuracy replication and verification 
+1. Model accuracy replication and verification
 2. 170 built-in models in Caffe, Caffe2, CNTK, MXNet, Tensorfow, and TensorRT
 3. Supports X86, ARM, and PPC
 4. Runs on Volta, Pascal, Maxwell, Kepler, and Jetson TX1 and TX2

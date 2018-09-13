@@ -30,4 +30,4 @@ caption = ":smile:"
 
 Dynamic parallelism on GPUs simplifies the programming of many classes of applications that generate paral-lelizable work not known prior to execution. However, modern GPUs architectures do not support dynamic parallelism efficiently due to the high kernel launch overhead, limited number of simultaneous kernels, and limited depth of dynamic calls a device can support.
 
-We proposed Kernel Lauch Aggregation and Promotion (KLAP), a set of compiler techniques that improve the performance of kernels which use dynamic parallelism. More details in our paper.
+We proposed Kernel Lauch Aggregation and Promotion (KLAP), a set of compiler techniques that improve the performance of kernels which use dynamic parallelism. More details in the [paper](/publication/klap/).

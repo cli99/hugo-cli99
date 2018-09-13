@@ -13,8 +13,4 @@ weight = 2
 
 +++
 
-C++, C, Go, Python, JavaScript, Mathematica, SQL, LaTeX
-
-CUDA, OpenMP, MPI
-
-Bash Scripting
+C++, C, CUDA, Go, OpenMP, MPI, Python, JavaScript, Mathematica, SQL, LaTeX, Bash
