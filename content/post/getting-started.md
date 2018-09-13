@@ -94,12 +94,12 @@ Refer to our guide on [managing content]({{< ref "post/managing-content.md" >}})
 
 The following color themes are available and can be set by the `color_theme` option in `config.toml`:
 
-| `default` | `ocean` |
-| --- | --- |
-| ![default theme](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png)| ![ocean theme](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png) |
+| `default`                                                                                                 | `ocean`                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| ![default theme](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png) | ![ocean theme](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png) |
 
-| `forest` | `coffee` |
-| --- | --- |
+| `forest`                                                                                                | `coffee`                                                                                                         |
+| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | ![forest theme](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png) | ![coffee theme](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png) |
 
 
