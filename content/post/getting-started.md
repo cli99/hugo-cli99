@@ -22,7 +22,7 @@ Key features:
 - Easily manage your homepage, blog posts, publications, talks, and projects
 - Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact
 - Need a different section? Just use the Custom widget!
-- Write in [Markdown]({{< ref "post/writing-markdown-latex.md" >}}) for easy formatting and code highlighting, with [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for mathematical expressions
+- Write in [Markdown]({{< ref "/post/writing-markdown-latex.md" >}}) for easy formatting and code highlighting, with [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for mathematical expressions
 - Social/academic network linking, [Google Analytics](https://analytics.google.com), and [Disqus](https://disqus.com) comments
 - Responsive and mobile friendly
 - Simple and refreshing one page design
@@ -80,15 +80,15 @@ Edit your biography in the *about* widget `content/home/about.md` that you copie
 
 ### Customize the homepage
 
-Refer to our guide on using [widgets]({{< ref "post/widgets.md" >}}) to customize your homepage.
+Refer to our guide on using [widgets]({{< ref "/post/widgets.md" >}}) to customize your homepage.
 
 ### Add your content
 
-Refer to our guide on [managing content]({{< ref "post/managing-content.md" >}}) to create your own publications, blog posts, talks, and projects.
+Refer to our guide on [managing content]({{< ref "/post/managing-content.md" >}}) to create your own publications, blog posts, talks, and projects.
 
 ### Remove unused widgets and pages
 
-[How to remove unused widgets and content pages]({{< ref "post/managing-content.md#removing-content" >}}).
+[How to remove unused widgets and content pages]({{< ref "/post/managing-content.md#removing-content" >}}).
 
 ### Themes
 

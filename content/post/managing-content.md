@@ -6,19 +6,18 @@ title = "Managing content"
 math = false
 +++
 
-This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]({{< ref "post/writing-markdown-latex.md" >}}).<!--more-->
+This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]({{< ref "/post/writing-markdown-latex.md" >}}).<!--more-->
 
 To enable LaTeX math rendering for a page, you should include `math = true` in the page's `+++` preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set `math = true` in `config.toml`.
 
-To disable source code highlighting by default for all pages, set `highlight = false` in `config.toml`. You can then enable source code highlighting only on pages that need it by setting `highlight = true` in that page's preamble. See the [code-highlighting docs]({{< ref "post/writing-markdown-latex.md#code-highlighting" >}}) for more details.
+To disable source code highlighting by default for all pages, set `highlight = false` in `config.toml`. You can then enable source code highlighting only on pages that need it by setting `highlight = true` in that page's preamble. See the [code-highlighting docs]({{< ref "/post/writing-markdown-latex.md#code-highlighting" >}}) for more details.
 
-To display a featured image in content page headers, the parameters below can be inserted towards the end of a page's `+++` preamble. It is assumed that the image is located in your `static/img/` folder, so the full path in the example below will be `static/img/headers/getting-started.png`. The `caption` parameter can be used to write an image caption or credit. 
+To display a featured image in content page headers, the parameters below can be inserted towards the end of a page's `+++` preamble. It is assumed that the image is located in your `static/img/` folder, so the full path in the example below will be `static/img/headers/getting-started.png`. The `caption` parameter can be used to write an image caption or credit.
 
 ```toml
 [header]
 image = "headers/getting-started.png"
 caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
-
 ```
 
 {{% alert note %}}
@@ -120,7 +119,7 @@ url_custom = [{name = "Custom Link 1", url = "http://example.org"},
 If you set `list_format=2` to enable a detailed listing of publications in the Publication Widget (`home/publications.md`) or Publication Archive (`publication/_index.md`), then there are a few more optional variables that you can include in the publication page preamble. You may use `abstract_short = "friendly summary of abstract"` and `publication_short = "abbreviated publication details"` to display a friendly summary of the abstract and abbreviate the publication details, respectively. Furthermore, there is the option to display a different image on the homepage to the publication detail page by setting `image_preview = "my-image.jpg"`. This can be useful if you wish to scale down the image for the homepage or simply if you just wish to show a different image for the preview.
 
 {{% alert warning %}}
-Any double quotes (`"`) or backslashes (e.g. LaTeX `\times`) occurring within the value of any frontmatter parameter (such as the *abstract*) should be escaped with a backslash (`\`). For example, the symbol `"` and LaTeX text `\times` become `\"` and `\\times`, respectively. Refer to the [TOML documentation](https://github.com/toml-lang/toml#user-content-string) for more info.
+Any double quotes (`"`) or backslashes (e.g. LaTeX `\times`) occurring within the value of any frontmatter parameter (such as the _abstract_) should be escaped with a backslash (`\`). For example, the symbol `"` and LaTeX text `\times` become `\"` and `\\times`, respectively. Refer to the [TOML documentation](https://github.com/toml-lang/toml#user-content-string) for more info.
 {{% /alert %}}
 
 ## Create a blog post
@@ -157,7 +156,7 @@ Then edit the newly created file `content/talk/my-talk-name.md` with your full t
 
 So you would like to create a page which utilizes Academic's widget system, similar to the homepage?
 
-Create a new folder in your `content` folder, naming it with your new page name. In this example, we will create a *courses* page by creating a `content/courses/` folder.
+Create a new folder in your `content` folder, naming it with your new page name. In this example, we will create a _courses_ page by creating a `content/courses/` folder.
 
 Within your new `content/courses/` folder, create a file named `_index.md` containing the following parameters:
 
@@ -179,14 +178,14 @@ Alternatively, for the above example, we could use a PDF of your Curriculum Vita
 
 ## Manage archive pages
 
-The archive (or *node index*) pages (e.g. `/post/`) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the archive pages when you have more items of content than can be displayed in the widget. Therefore, if you don't have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.
+The archive (or _node index_) pages (e.g. `/post/`) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the archive pages when you have more items of content than can be displayed in the widget. Therefore, if you don't have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.
 
 You can edit the title and add your own content, such as an introduction, by copying the following content `_index.md` files from the example site to the same structure within your `content/` folder:
 
     /themes/academic/exampleSite/content/post/_index.md
     /themes/academic/exampleSite/content/publication/_index.md
     /themes/academic/exampleSite/content/talk/_index.md
-    
+
 Then edit the `title` parameter in each `_index.md` as desired and add any content after the `+++` preamble/frontmatter ends. You will notice that the `_index.md` files differ slightly, with some having special options available for the associated content type. For example, `publication/_index.md` contains an option for setting the citation style of the listings which appear on the publication archive page.
 
 ## Removing content
