@@ -11,11 +11,11 @@ box: samueldebruyn/debian-git
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
 # services:
-    # - postgres
-    # http://devcenter.wercker.com/docs/services/postgresql.html
+# - postgres
+# http://devcenter.wercker.com/docs/services/postgresql.html
 
-    # - mongo
-    # http://devcenter.wercker.com/docs/services/mongodb.html
+# - mongo
+# http://devcenter.wercker.com/docs/services/mongodb.html
 build:
   # The steps that will be executed on build
   # Steps make up the actions in your pipeline
@@ -29,18 +29,18 @@ build:
     - script:
         name: initialize and update git submodules
         code: |
-            git submodule init
-            git submodule update --remote --recursive
+          git submodule init
+          git submodule update --remote --recursive
     - arjen/hugo-build:
-        version: "0.48"
+        version: '0.48'
         theme: academic
 deploy:
   steps:
     - ysqi/git-push:
-       gh_oauth: $GH_TOKEN
-       repo: cli99/cli99.github.io
-       gh_pages: true
-       branch: master
-       basedir: public
+        gh_oauth: $GH_TOKEN
+        repo: cli99/cli99.github.io
+        gh_pages: true
+        branch: master
+        basedir: public
 
 # https://fischcheng.github.io/2016/09/14/automated-deployment-of-hugo-generated-site-to-github-pages/
