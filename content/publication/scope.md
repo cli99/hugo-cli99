@@ -1,6 +1,6 @@
 +++
 title = "SCOPE: C3SR Systems Characterization and Benchmarking Framework"
-date = "2018-05-13"
+date = "2018-09-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carl Pearson", "Abdul Dakkak", "Cheng Li", "Sarah Hashash", "Jinjun Xiong", "Wen-mei Hwu"]
@@ -35,7 +35,7 @@ selected = true
 #projects = ["example-external-project"]
 
 # Links (optional).
-url_pdf = "pdf/scope-axiv.pdf"
+url_pdf = "pdf/scope-arxiv.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
