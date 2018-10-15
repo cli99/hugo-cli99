@@ -10,7 +10,7 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Hardware/Software Co-design for Deep Learning",
+    "System Design and Engineering for Machine Learning",
     "GPU Acceleration for AI and HPC Applications",
     "Cloud Applications and Systems"
   ]
@@ -41,7 +41,5 @@ weight = 1
 # Biography
 
 I am a PhD candidate in Computer Science at the University of Illinois at Urbana-Champaign and a member of the [IMPACT Research Group](http://impact.crhc.illinois.edu/) led by Professor Wen-Mei Hwu.
-
-My research interests are System Design and Engineering for Machine Learning, GPU Acceleration of AI and HPC Applications, and Cloud Applications.
 
 Currently I am working on [MLModelScope(CarML)](https://github.com/rai-project/carml) as part of the IBM-ILLINOIS [Center for Cognitive Computing Systems Research (C3SR)](https://www.c3sr.com/). MLModelScope is an open-source framework agnostic platform to facilitate evaluation, profiling, and deployment of Deep Learning models across hardware and software stacks. Available at [mlmodelscope.org](http://mlmodelscope.org/).
