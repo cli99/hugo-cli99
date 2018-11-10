@@ -28,21 +28,29 @@ caption = ":smile:"
 
 +++
 
-The current landscape of Machine Learning (ML) is fragmented. Many hardware companies and software stacks are proposing diverse hardware architectures and software paradigms. While this is good for innovation, it does make analyzing the different ML offering complicated and error-prone. We propose MLModelScope, a batteries-included platform for performing evaluations on ML/DL algorithms across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance.
+The current landscape of Machine Learning (ML) and Deep Learning (DL) is rife with non-uniform models, frameworks, and system stacks but lacks standard tools to evaluate and profile models or systems. Due to the absence of such tools, the current practice for evaluating and comparing the benefits of proposed AI innovations (be it hardware or software) on end-to-end AI pipelines is both arduous and error prone — stifling the adoption of the innovations.
 
-MLModelScope (CarML) allows one to dissect ML models and characterize performance through a common interface, generating a report as a byproduct. By simplifying and standardizing the analysis and evaluation of ML offerings, we enable people from industry and researchers to have a common methodology and platform by which to compare the offerings and ideas.
+MLModelScope is a hardware/software agnostic, extensible and customizable platform for evaluating and profiling ML models across datasets/frameworks/hardware, and within AI application pipelines. MLModelScope lowers the cost and effort for performing model evaluation and profiling, making it easier for others to reproduce, evaluate, and analyze accuracy or performance claims of models and systems.
 
-MLModelScope currently has the following capabilities:
+It is designed to aid in:
 
-1. Model accuracy replication and verification
-2. 170 built-in models in Caffe, Caffe2, CNTK, MXNet, Tensorfow, and TensorRT
-3. Supports X86, ARM, and PPC
-4. Runs on Volta, Pascal, Maxwell, Kepler, and Jetson TX1 and TX2
-5. Top1/Top5 accuracy on popular datasets such as ImageNet, CIFAR, MNIST
-6. Model divergence Analysis for a given input
-7. End-To-End profiling
-8. Model layer and GPU kernel information on timing, hardware performance counter, and
-9. CUDA execution profile
-10. Static profiling such as theoretical flops calculation and memory requirement.
+- reproducing and comparing with published models, and designing models with performance and deployment in mind,
+- understanding the model performance (within realworld AI workflows) and its interaction with all levels of the hardware/software stack
+- discovering models, frameworks and hardware that are applicable to users’ datasets.
 
-MLModelScope is currently under development and docs are here [MLModelScope Docs](https://rai-project.github.io/carml)
+To achieve this, MLModelScope:
+
+- provides a consistent evaluation, aggregation, and reporting system by defining
+  techniques to specify and provision workflows with HW/SW stacks
+  abstractions for evaluation and profiling using different frameworks
+  data consumption for evaluation outputs
+- enables profiling of experiments throughout the entire pipeline and at different abstraction levels (application, model, framework, layer, library and hardware, as shown on the right)
+- is framework and hardware agnostic - with current support for TensorFlow, MXNet, TensorRT, Caffe, Caffe2, CNTK running on X86, PowerPC, and ARM CPU with GPU and FPGA
+- is extensible and customizable - allowing users to extend MLModelScope by adding models, frameworks, or library and system profilers, and use
+- can run experiments on separate machines, and behind firewall (does not exposing model weights or machine specification)
+- allows parallel evaluation (multiple instantiations of the same experiment set-up across systems)
+- specifies model and framework resources as asset files which can be added easily, even at runtime
+
+MLModelScope can be used as an application with a command line, API or web interface, or can be compiled into a standalone library. We also provide an online hub of continuously updated assets, evaluation results, and access to hardware resources — allowing users to discover and evaluate models without installing or configuring systems.
+
+Learn more at [MLModelScope](https://mlmodelscope.org/) and [Docs](https://docs.mlmodelscope.org/)
