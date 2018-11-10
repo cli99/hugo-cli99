@@ -6,14 +6,15 @@ date = "2017-08-30"
 title = "MLModelScope (CarML)"
 
 # Project summary to display on homepage.
-summary = "An open-source framework agnostic platform for performing evaluations and profiling on ML/DL models across datasets, frameworks, and systems to analyze accuracy, efficiency, and performance."
+summary = "A hardware/software agnostic, extensible and customizable platform for evaluating and profiling ML models across datasets/frameworks/hardware, and within AI application pipelines."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "/img/carml.png"
+
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["current"]
+tags = []
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
