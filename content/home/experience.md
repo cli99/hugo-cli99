@@ -16,10 +16,12 @@ weight = 5
 
 ## Industry
 
-Summer 2018 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
+- Summer 2018 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
 
-Summer 2017 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
+- Summer 2017 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
 
 ## Teaching
 
-Fall 2016 - Lead Teaching Assistant for ECE408/CS483: Applied Parallel Programming at University of Illinois at Urbana-Champaign.
+- Fall 2016 - Head Teaching Assistant for ECE408/CS483: Applied Parallel Programming at University of Illinois at Urbana-Champaign.
+
+- Summer 2018 - Teaching Assistant for the 9th Programming and Tuning Massively Parallel Systems + Artificial Intelligence summer school ([PUMPS+AI](https://pumps.bsc.es/2018/)) in Barcelona
