@@ -13,4 +13,4 @@ weight = 2
 
 +++
 
-C++, C, CUDA, Go, Python, JavaScript, Mathematica, LaTeX, Bash
+Go, C++, C, CUDA, Python, JavaScript, Mathematica, LaTeX, Bash
