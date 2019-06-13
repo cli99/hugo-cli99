@@ -11,8 +11,7 @@ weight = 1
 [interests]
   interests = [
     "System Design and Engineering for Machine Learning",
-    "GPU Acceleration for AI and HPC Applications",
-    "Cloud Applications and Systems"
+    "GPU Acceleration for Deep Learning and HPC Applications",
   ]
 
 
@@ -40,6 +39,8 @@ weight = 1
 
 # Biography
 
-I am a PhD candidate in Computer Science at the University of Illinois at Urbana-Champaign and a member of the [IMPACT Research Group](http://impact.crhc.illinois.edu/) led by Professor Wen-Mei Hwu.
+I am a PhD candidate in Computer Science at the University of Illinois at Urbana-Champaign and a member of the [IMPACT Research Group](http://impact.crhc.illinois.edu/) led by Professor [Wen-Mei Hwu](https://ece.illinois.edu/directory/profile/w-hwu).
 
-Currently I am working on [MLModelScope(CarML)](https://github.com/rai-project/carml) as part of the IBM-ILLINOIS [Center for Cognitive Computing Systems Research (C3SR)](https://www.c3sr.com/). MLModelScope is an open-source framework and hardware agnostic, extensible and customizable platform for evaluating and profiling ML models across datasets/frameworks/systems, and within AI application pipelines. Available at [mlmodelscope.org](http://mlmodelscope.org/). Details at [MLModelScope: Evaluate and Measure ML Models within AI Pipelines](https://arxiv.org/abs/1811.09737).
+My research lies in the field of GPU-accelerated applications, with an emphasis on Deep Learning. My work has focused on understanding, characterizing, and optimizing Deep Learning workloads. In the process, I have developed a number of open-source tools to benchmark, profile, and summarize Deep Learning training and inference across hardware and software stacks. The tools have been used to inform system design for Deep Learning model serving and develop highly tuned GPU kernels for model inference.
+
+Currently I am working on [MLModelScope(CarML)](http://mlmodelscope.org/) as part of the IBM-ILLINOIS [Center for Cognitive Computing Systems Research (C3SR)](https://www.c3sr.com/). MLModelScope is an open-source framework and hardware agnostic, extensible and customizable platform for evaluating and profiling ML models across datasets / frameworks / systems, and within AI application pipelines. MLModelScope is collaborating with the [MLPerf](https://mlperf.org/) community with the goal for it to be the "to-go" platform for Machine Learning inference evaluation and benchmarking.

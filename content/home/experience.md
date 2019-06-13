@@ -16,6 +16,8 @@ weight = 5
 
 ## Industry
 
+- Summer 2019 - Research Intern at Alibaba Group, Sunnyvale, CA
+
 - Summer 2018 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
 
 - Summer 2017 - Research Intern at IBM TJ Watson Research Center, Yorktown Heights, NY
